@@ -38,7 +38,8 @@
                     <h2 class="banner-title">I create <span> product design</span> and brand experience</h2>
                     <p class="banner-description">Lorem ipsum dolor, sit amet consectetur adipisicing Lorem ipsum dolor,
                         sit amet consectetur adipisicing elit. Quia veritatis ratione rem tempora corporis.</p>
-                    <button class="button-banner">Get In Touch</button>
+                        <button class="button-banner" id="get-in-touch-btn">Get In Touch</button>
+
 
                 </div>
                 <div class="banner-img">
@@ -147,7 +148,9 @@
                             and technologies i use. Want to find out </p>
                         <div class="icon-area">
                             <p class="dribbble-title">View in dribbble</p>
-                            <button class="btn-icon"><i class="fa-solid fa-arrow-trend-up"></i></button>
+                            <button class="btn-icon" data-url="https://dribbble.com" aria-label="View on Dribbble">
+                                <i class="fa-solid fa-arrow-trend-up"></i>
+                            </button>
                         </div>
                     </div>
 
@@ -313,12 +316,10 @@
                     <img src="./images/logo.jpg" alt="logo" />
                 </div>
                 <nav class="footer-nav">
-                    <a href="#">Home</a>
-                    <a href="#">Portfolio</a>
-                    <a href="#">About me</a>
-                    <a href="#">Contact</a>
-                    <a href="#">Testimonials</a>
-                    <a href="#">Portfolio</a>
+                    <a href="#" id="home-link">Home</a>
+                    <a href="#" id="portfolio-link">Portfolio</a>
+                    <a href="#" id="about-link">About Me</a>
+                    <a href="#" id="testimonials-link">Testimonials</a>
                 </nav>
                 <div class="social-icons">
                     <a href="#"><i class="fab fa-facebook"></i></a>
@@ -333,9 +334,9 @@
             <div class="footer-bottom">
                 <p>Made with <span class="heart">♥</span> Md Abu Sufyan </p>
                 <nav class="footer-policy">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                    <a href="#">Cookies Settings</a>
+                    <a href="#privacy" id="privacy-link">Privacy Policy</a>
+                    <a href="#terms" id="terms-link">Terms of Service</a>
+                    <a href="#cookies" id="cookies-link">Cookies Settings</a>
                 </nav>
             </div>
         </div>
@@ -343,6 +344,8 @@
 
 
     <script src="clock.js"></script>
+    <script src="script.js"></script>
+
 
     <!-- <script src="index.js"></script> -->
 
